@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Cellar - E - DataTables</title>
+<!-- link in the DataTables library from the updated files in the js folder -->
+<script src="js/jquery-1.11.0.js"></script>
+<script src="js/jquery.dataTables.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" href="css/jquery.DataTables.css" />
+
+</head>
+
+<body>
+<H2>Welcome To The Wine Cellar Application</H2>
+<!--<div class="header">
+	<input type="text" id="searchKey"/>
+	<button id="btnSearch">Search</button>
+	<button id="btnAdd">New Wine</button>
+</div>-->
+
+
+<div class="leftArea">
+<!-- remove the List code and add a template for a HTML table. This will contain our jQuery DataTable -->
+<!--<ul id="wineList"></ul>-->
+<table id="table_id" class="display">
+<thead>
+<tr>
+<th>Name</th>
+<th>Grapes</th>
+<th>Country</th>
+<th>Year</th>
+</tr>
+<tbody id="table_body">
+
+</tbody>
+</table>
+</div>
+
+<!--	
+
+<form id="wineForm">
+<div class="mainArea">
+
+<label>Id:</label>
+<input id="wineId" name="id" type="text" disabled />
+
+<label>Name:</label>
+<input type="text" id="name" name="name" required>
+
+<label>Grapes:</label>
+<input type="text" id="grapes" name="grapes"/>
+
+<label>Country:</label>
+<input type="text" id="country" name="country"/>
+
+<label>Region:</label>
+<input type="text" id="region" name="region"/>
+
+<label>Year:</label>
+<input type="text" id="year" name="year"/>
+
+<button id="btnSave">Save</button>
+<button id="btnDelete">Delete</button>
+
+</div>
+
+<div class="rightArea">
+
+<img id="pic" height="300"/>
+
+<label>Notes:</label>
+<textarea id="description" name="description"></textarea>
+</div>
+
+</form>
+
+-->
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* type selectors */
+
+body {
+	background-color: #0011dd;
+}
+#page {
+	font-family:Arial, Helvetica, sans-serif;
+	width: 900px;
+	background-color: #eeeeee;
+	margin: 0 auto;
+	padding: 15px 25px;
+	border: 3px solid #999999;
+    float:left;
+}
+
+header{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-style:italic;
+    height: 210px;
+    padding-bottom:2em;
+    border-bottom:3px solid #999999;
+}
+#im1 {
+    float: left;
+}
+#im2 {
+    float: right;
+}
+header h1 {
+    font-size: 200%;
+    margin-left: 5em;
+    color:#cc0000;
+}
+ h2 {
+    margin-left: 10em;
+    color: #999999;
+    font-size: 150%;
+}
+
+/* the styles for the aside bar */
+aside {
+	width: 300px;
+	height:400px;
+	margin: 1.5em;
+	float: left;
+	padding-left: 20px;
+	border:2px solid blue;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 3px 3px 4px 4px rgba(0,0,255,0.4);
+}
+aside h2 {
+	font-size: 125%;
+	margin-top: 30px;
+	margin-left:2px;
+	padding-bottom: .5em;
+}
+aside ul {
+	list-style: none;
+}
+aside li {
+	margin-bottom: 1em;
+	
+}
+
+aside img {
+	border: 3px solid navy;
+	margin-right:10px;
+}
+aside.site {
+	margin-left: 10px;
+}
+
+
+section{
+    margin:1.5em;
+    float:right;
+    padding:5px;
+    background-color:#cccccc;
+    height:300px;
+    width:450px;
+    border-radius: 20px 20px 20px 20px;
+}
+section img{float:right;
+             padding-top:2em;
+             padding-right:1em;  }
+#search{
+	 margin:1.5em;
+	float:right;
+}
+             
+footer{
+border-top:3px solid #999999;
+margin-top: 1.5em;
+height: 100px;
+padding-top:10px;
+clear:left;}
+
+footer img{float:right;}
+.left{text-align: left;
+color:gray;
+font-size: 80%;}
